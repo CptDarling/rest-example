@@ -2,9 +2,6 @@
 exports.default = function(app, port) {
 
   app.get("/url", (req, res, next) => {
-    console.log(req.headers);
-    console.log(req.query);
-    // res.render()
     res.json(["Tony","Lisa","Michael","Ginger","Food"]);
   });
   
